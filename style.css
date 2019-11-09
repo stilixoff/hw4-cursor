@@ -63,6 +63,7 @@ body {
 .wraper {
     position: relative;
     max-width: 1160px;
+    min-width: 1160px;
     height: 710px;
     background-color: #FAFAFA;
     margin: 0 auto;
