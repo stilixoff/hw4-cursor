@@ -235,6 +235,7 @@ h1 {
     width: 68px;
     height: 100%;
     align-items: center;
+	cursor: pointer;
 }
 
 .red-triangle {
@@ -289,6 +290,7 @@ h1 {
     font-size: 17px;
     line-height: 20px;
     color: #151F32;
+	cursor: pointer;
 }
 
 .midle-button-right {
