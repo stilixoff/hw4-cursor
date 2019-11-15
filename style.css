@@ -228,7 +228,7 @@ h1 {
     color: #FCD3AC;
 }
 
-.arrows {
+/* .arrows {
     display: inline-flex;
     justify-content: space-between;
     margin-top: 59px;
@@ -236,6 +236,31 @@ h1 {
     height: 100%;
     align-items: center;
 	cursor: pointer;
+} */
+
+.arrows {
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    margin-top: 59px;
+    width: 68px;
+    height: 100%;
+}
+
+.arrows>a:first-child {
+    margin-right: 30%;
+}
+
+.arrow-right {
+    transform: rotate(180deg);
+}
+
+.arrow-left:hover {
+    transform: scale(1.7);
+}
+
+.arrow-right:hover {
+    transform: scale(1.7) rotate(180deg);
 }
 
 .red-triangle {
